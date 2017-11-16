@@ -45,6 +45,7 @@ end
 # gem 'capistrano-rails', group: :development
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
+  gem "factory_bot_rails"
 end
 
 group :development, :test do
